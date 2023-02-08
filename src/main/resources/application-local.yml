@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:${password}@${mongo-cluster}
+      database: ${mongo-db-name}
+      username: ${user}
+      password: ${password}
