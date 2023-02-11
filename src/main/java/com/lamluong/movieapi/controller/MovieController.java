@@ -15,6 +15,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/data")
 @RequiredArgsConstructor
+@CrossOrigin("http://127.0.0.1:5173/")
 public class MovieController {
 
     final MovieService movieServiceImp;
