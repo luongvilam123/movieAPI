@@ -29,7 +29,7 @@ public class Movie {
 
     private String poster;
 
-    private List<String> backDrops;
+    private List<String> backdrops;
 
     @DBRef
     private List<Review> reviewIds;
